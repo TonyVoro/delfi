@@ -10,6 +10,10 @@ div {
     display: block;
 }
 
+:root {
+    --font-family-primary: sans-serif;
+}
+
 header {
     display: flex;
     position: sticky;
@@ -20,7 +24,6 @@ header {
 
 .C-list {
     display: flex;
-    flex-wrap: wrap;
     font-family: 13px sans-serif;
     padding-left: 0;
     margin-bottom: 0;
@@ -30,7 +33,7 @@ header {
 a:link {
     text-decoration: none;
     color: #222222;
-    font-family: sans-serif;
+    font-family: var(--font-family-primary);
 }
 
 a:visited {
@@ -52,14 +55,58 @@ a:active {
     font-weight: 650;
 }
 
+.other-section{
+    display: flex;
+}
+
+.section {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
 .telli {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #3858f5;
+    color: #fff;
     border: none;
-    color: white;
+    font-family: var(--font-family-primary);
     font-size: 12px;
     border-radius: 100px;
     line-height: 1;
+    text-align: center;
+    height: 30px;
     width: 79px;
     padding: 8px 5px;
-    margin: -12px 100px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #edf2f4;
+    border: none;
+    color: #222;
+    font-family: var(--font-family-primary);
+    font-size: 12px;
+    border-radius: 100px;
+    line-height: 1;
+    text-align: center;
+    height: 32px;
+    width: 79px;
+    padding: 8px 5px;
+    list-style: none;
+}
+
+.separator {
+    width: 1px;
+    height: 24px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #222;
+    list-style: none;
 }
