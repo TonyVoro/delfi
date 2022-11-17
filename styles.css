@@ -17,9 +17,11 @@ div {
 header {
     display: flex;
     position: sticky;
-    border-bottom: 0.1px solid gray;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
     margin-top: 0px;
     height: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .C-list {
