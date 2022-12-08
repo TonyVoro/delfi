@@ -1,7 +1,15 @@
 * {
     box-sizing: border-box;
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
+=======
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (min-width: 992px) {
+>>>>>>> 3126398 (Updated delfi)
 }
 
 html {
@@ -15,14 +23,28 @@ html {
 header {
     display: flex;
     position: sticky;
+    justify-content: space-between;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     height: 40px;
     padding-left: 100px;
     padding-right: 100px;
+=======
+    margin-top: 0px;
+    height: 70px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+>>>>>>> 3126398 (Updated delfi)
 }
 
 .C-list {
     display: flex;
+    justify-content: center;
     font-family: 13px sans-serif;
     list-style: none;
 }
@@ -35,6 +57,7 @@ a:link {
 
 a:visited, a:hover, a:active {
     text-decoration: none;
+<<<<<<< HEAD
 }
 
 .header_list {
@@ -42,13 +65,19 @@ a:visited, a:hover, a:active {
     align-items: center;
     margin-top: 20px;
     justify-content: space-between;
+=======
+>>>>>>> 3126398 (Updated delfi)
 }
 
 .header-menu-item {
     color: #222222;
+<<<<<<< HEAD
     position: relative;
     margin: 24px, 15px;
     padding: 5px 10px;
+=======
+    padding: 5px 15px;
+>>>>>>> 3126398 (Updated delfi)
     font-weight: 650;
     font-size: 13px;
 }
@@ -66,7 +95,11 @@ ul {
     display: flex;
 }
 
+<<<<<<< HEAD
 .button2 {
+=======
+.buttons {
+>>>>>>> 3126398 (Updated delfi)
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +110,7 @@ ul {
     text-align: center;
     height: 30px;
     width: 79px;
+    margin: 0px 5px;
     padding: 8px 5px;
     list-style: none;
     margin: 0px 5px;
@@ -88,17 +122,32 @@ ul {
     color: #fff;
 }
 
+.telli {
+    display: flex;
+    background-color: #3858f5;
+    color: #fff;
+    font-weight: 700;
+    transition: background .15s,color .15s;
+    transition-duration: 0.15s, 0.15s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    transition-property: background, color;
+}
+
 .login {
     display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #edf2f4;
-    border: none;
     color: #222;
+<<<<<<< HEAD
     font-size: 12px;
+=======
+    font-weight: 500;
+>>>>>>> 3126398 (Updated delfi)
 }
 
 .separator {
+    display: flex;
+    justify-content: center;
     width: 1px;
     height: 24px;
     margin-right: 20px;
@@ -107,7 +156,13 @@ ul {
     list-style: none;
 }
 
+<<<<<<< HEAD
 .search_burger {
     display: flex;
     justify-content: center;
+=======
+.fa-bars {
+    margin-left: 15px;
+    
+>>>>>>> 3126398 (Updated delfi)
 }
