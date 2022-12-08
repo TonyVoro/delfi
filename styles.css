@@ -1,13 +1,11 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
     min-height: 100%;
-}
-
-div {
-    display: block;
 }
 
 :root {
@@ -18,17 +16,14 @@ header {
     display: flex;
     position: sticky;
     box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
-    margin-top: 0px;
     height: 40px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .C-list {
     display: flex;
     font-family: 13px sans-serif;
-    padding-left: 0;
-    margin-bottom: 0;
     list-style: none;
 }
 
@@ -38,23 +33,24 @@ a:link {
     font-family: var(--font-family-primary);
 }
 
-a:visited {
+a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
+.header_list {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
 }
 
 .header-menu-item {
     color: #222222;
-    margin: -12px 30px;
-    padding: 5px 15px;
+    position: relative;
+    margin: 24px, 15px;
+    padding: 5px 10px;
     font-weight: 650;
+    font-size: 13px;
 }
 
 .other-section{
@@ -67,23 +63,29 @@ a:active {
 
 ul {
     list-style: none;
+    display: flex;
 }
 
-.telli {
+.button2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #3858f5;
-    color: #fff;
     border: none;
     font-family: var(--font-family-primary);
-    font-size: 12px;
     border-radius: 100px;
     line-height: 1;
     text-align: center;
     height: 30px;
     width: 79px;
     padding: 8px 5px;
+    list-style: none;
+    margin: 0px 5px;
+    font-weight: 600;
+}
+
+.telli {
+    background-color: #3858f5;
+    color: #fff;
 }
 
 .login {
@@ -93,15 +95,7 @@ ul {
     background-color: #edf2f4;
     border: none;
     color: #222;
-    font-family: var(--font-family-primary);
     font-size: 12px;
-    border-radius: 100px;
-    line-height: 1;
-    text-align: center;
-    height: 32px;
-    width: 79px;
-    padding: 8px 5px;
-    list-style: none;
 }
 
 .separator {
@@ -111,4 +105,9 @@ ul {
     margin-left: 20px;
     background: #222;
     list-style: none;
+}
+
+.search_burger {
+    display: flex;
+    justify-content: center;
 }
